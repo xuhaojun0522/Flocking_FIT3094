@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Flocking.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{367D229F-A4A8-4605-9DA1-AF3A853A4429}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flocking.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FlockingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\Flocking">
+      <UniqueIdentifier>{9D717B9D-CA6A-40A9-A770-D4AFDC3F52DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Flocking\Asteroid.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\Asteroid.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Flocking\Flocking.Build.cs">
+      <Filter>Source\Flocking</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Flocking\Flocking.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\Flocking.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Flocking\FlockingGameModeBase.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\FlockingGameModeBase.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
